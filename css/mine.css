@@ -64,11 +64,12 @@ body {
     min-height: 740px;
 
     background: rgb(215, 215, 215);
-    background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 500, from(rgb(240, 240, 240)), to(rgb(190, 190, 190)));
+    background-image: url('whitepapertexture.gif');
+/*    background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 500, from(rgb(240, 240, 240)), to(rgb(190, 190, 190)));
     background: -webkit-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
     background: -moz-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
     background: -o-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
-    background: radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
+    background: radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));*/
 
     -webkit-font-smoothing: antialiased;
 }
@@ -162,6 +163,23 @@ body {
  * ;)
  */
 
+
+/* 3D in step DEMO */
+#its-in-3d p {
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d; /* Y U need this Firefox?! */
+    -ms-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+#its-in-3d .you {
+    -webkit-transform: translateZ(50px);
+    -moz-transform: translateZ(50px);
+    -ms-transform: translateZ(50px);
+    -o-transform: translateZ(50px);
+    transform: translateZ(50px);
+}
 
 
 /* IMPRESS NOT SUPPORTED STYLES */
