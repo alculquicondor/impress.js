@@ -4,60 +4,14 @@ impress.js
 It's a presentation framework based on the power of CSS3 transforms and 
 transitions in modern browsers and inspired by the idea behind prezi.com.
 
-**WARNING**
-
-impress.js may not help you if you have nothing interesting to say ;)
+Proyect Website: http://bartaz.github.com/impress.js
 
 
-ABOUT THE NAME
+ABOUT THIS PRESENTATION
 ----------------
+This presentation will be used to introduce TELCON-UNI 2012, a Telecomunications Congress to be held in September 2012, in Lima (Peru)
 
-impress.js name in [courtesy of @skuzniak](http://twitter.com/skuzniak/status/143627215165333504).
-
-It's an (un)fortunate coincidence that a Open/LibreOffice presentation tool is called Impress ;)
-
-
-VERSION HISTORY
------------------
-
-### 0.4pre ([browse](http://github.com/bartaz/impress.js/))
-
-**currently in development**
-
-
-### 0.3 ([browse](http://github.com/bartaz/impress.js/tree/0.3), [zip](http://github.com/bartaz/impress.js/zipball/0.3), [tar](http://github.com/bartaz/impress.js/tarball/0.3))
-
-* minor CSS 3D fixes
-* basic API to control the presentation flow from JavaScript
-* touch event support
-* basic support for iPad (iOS 5 and iOS 4 with polyfills) and Blackberry Playbook
-
-**UPGRADING FROM PREVIOUS VERSIONS**
-
-Because API was introduced the way impress.js script is initialized was changed a bit. You not only has to include
-`impress.js` script file, but also call `impress()` function.
-
-See the source of `index.html` for example and more details.
-
-
-### 0.2 ([browse](http://github.com/bartaz/impress.js/tree/0.2), [zip](http://github.com/bartaz/impress.js/zipball/0.2), [tar](http://github.com/bartaz/impress.js/tarball/0.2))
-
-* tutorial/documentation added to `index.html` source file
-* being even more strict with strict mode
-* code clean-up
-* couple of small bug-fixes
-
-
-### 0.1 ([browse](http://github.com/bartaz/impress.js/tree/0.1), [zip](http://github.com/bartaz/impress.js/zipball/0.1), [tar](http://github.com/bartaz/impress.js/tarball/0.1))
-
-First release.
-
-Contains basic functionality for step placement and transitions between them
-with simple fallback for non-supporting browsers.
-
-
-
-HOW TO USE IT
+HOW TO MAKE YOUR OWN
 ---------------
 
 [Use the source](http://github.com/bartaz/impress.js/blob/master/index.html), Luke ;)
@@ -70,50 +24,6 @@ Sorry.
 
 Fortunately there are some guys on GitHub that got quite excited with the idea of building
 editing tool for impress.js. Let's hope they will manage to do it.
-
-
-EXAMPLES AND DEMOS
---------------------
-
-### Official demo
-
-[impress.js demo](http://bartaz.github.com/impress.js) by [@bartaz](http://twitter.com/bartaz)
-
-### Presentations
-
-[CSS 3D transforms](http://bartaz.github.com/meetjs/css3d-summit) from [meet.js summit](http://summit.meetjs.pl) by [@bartaz](http://twitter.com/bartaz)
-
-[What the Heck is Responsive Web Design](http://johnpolacek.github.com/WhatTheHeckIsResponsiveWebDesign-impressjs/) by John Polacek [@johnpolacek](http://twitter.com/johnpolacek)
-
-[12412.org presentation to Digibury](http://extra.12412.org/digibury/) by Stephen Fulljames [@fulljames](http://twitter.com/fulljames)
-
-[Data center virtualization with Wakame-VDC](http://wakame.jp/wiki/materials/20120114_TLUG/) by Andreas Kieckens [@Metallion98](https://twitter.com/#!/Metallion98)
-
-[Asynchronous JavaScript](http://www.medikoo.com/asynchronous-javascript/3d/) by Mariusz Nowak [@medikoo](http://twitter.com/medikoo)
-
-[Introduction to Responsive Design](http://www.alecrust.com/factory/rd-presentation/) by Alec Rust [@alecrust] (http://twitter.com/alecrust)
-
-[Bonne année 2012](http://duael.fr/voeux/2012/) by Edouard Cunibil [@DuaelFr](http://twitter.com/DuaelFr)
-
-[Careers in Free and Open Source Software](http://exequiel09.github.com/symposium-presentation/) by Exequiel Ceasar Navarrete [@ichigo1411](http://twitter.com/ichigo1411)
-
-[HTML5 Future : to infinity and beyond!](http://sylvainw.github.com/HTML5-Future/index_en.html) by Sylvain Weber [@sylvainw](http://twitter.com/sylvainw)
-
-### Websites and portfolios
-
-[lioshi.com](http://lioshi.com) by @lioshi
-
-[alingham.com](http://www.alingham.com) by Al Ingham [@alingham](http://twitter.com/alingham)
-
-[nice-shots.de](http://nice-shots.de) by [@NiceShots](http://twitter.com/NiceShots)
-
-[museum140](http://www.youtube.com/watch?v=ObLiikJEt94) Shorty Award promo video [entirely made with ImpressJS](http://thingsinjars.com/post/446/museum140-shorty/) by [@thingsinjars](http://twitter.com/thingsinjars)
-
-[electricanimal.co.uk](http://www.electricanimal.co.uk) by [@elecmal](http://twitter.com/elecmal)
-
-If you have used impress.js in your presentation (or website) and would like to have it listed here,
-please contact me via GitHub or send me a pull request to updated `README.md` file.
-
 
 
 BROWSER SUPPORT
