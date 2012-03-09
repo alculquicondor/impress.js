@@ -3,7 +3,8 @@ impress.js
 
 It's a presentation framework based on the power of CSS3 transforms and 
 transitions in modern browsers and inspired by the idea behind prezi.com.
-Website: bartaz.github.com/impress.js
+
+Proyect Website: http://bartaz.github.com/impress.js
 
 
 ABOUT THIS PRESENTATION
