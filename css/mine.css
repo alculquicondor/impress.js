@@ -212,3 +212,6 @@ body {
     display: block;
 }
 
+iframe {
+    -webkit-transform: translateZ(1px);
+}
