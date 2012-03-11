@@ -19,6 +19,9 @@
 
     <link href="css/mine.css" rel="stylesheet" />
     
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jmpress.js"></script>
+    
 </head>
 <body>
 
@@ -37,7 +40,7 @@
     it can be found below, when `hint` element is being described.
     
 -->
-<div id="impress" class="impress-not-supported">
+<div id="jmpress" class="impress-not-supported">
 
     <div class="fallback-message">
     	<p>Su navegador <b>no soporta las características requeridas</b> por impress.js, así que se le está presentando una versión simplificada de esta presentación.</p>
@@ -178,36 +181,12 @@ if ("ontouchstart" in document.documentElement) {
     Of course you can wrap it in any kind of "DOM ready" event, but I was too lazy to do so ;)
     
 -->
-<script src="js/impress.js"></script>
-<script>impress();</script>
-
-<!--
-    
-    The `impress()` function also gives you access to API to control the presentation.
-    
-    Just store the result of the call:
-    
-        var api = impress();
-    
-    and you will get three functions you can call:
-    
-        `api.next()` - moves to next step of the presentation,
-        `api.prev()` - moves to previous step of the presentation
-        `api.goto( stepElement ) - moves the presentation to given step element (the DOM element of the step).
-    
--->
+<script type="text/javascript">
+$(function() {
+        $('#jmpress').jmpress();
+});
+</script>
 
 </body>
 </html>
-
-<!--
-    
-    Are you still reading this?
-    
-    For real?
-    
-    I'm impressed! Feel free to let me know that you got that far (I'm @bartaz on Twitter), 'cause I'd like
-    to congratulate you personally :)
-    
--->
 
